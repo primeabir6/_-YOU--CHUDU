@@ -35,7 +35,7 @@ module.exports.run = async function({ api, event }) {
 ┣ 🌐 YOUTUBE:https://youtube.com/@primeabir-73?si=l1HendTqJsAxQ9Vf
 ┃ 🌐 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : https://www.facebook.com/profile.php?id=61569497792525
 ┣━━━━━━━━━━━━━━━━━━━━━┫
-┃ 🕒 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐓𝐢𝐦𝐞:  ${time}
+┃ 🕒 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐓𝐢𝐦𝐞:  $1000{time}
 ┗━━━━━━━━━━━━━━━━━━━━━┛
         `,
         attachment: fs.createReadStream(__dirname + "/cache/1.png")
