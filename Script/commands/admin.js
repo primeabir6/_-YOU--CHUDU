@@ -4,12 +4,12 @@ const fs = require("fs-extra");
 const moment = require("moment-timezone");
 
 module.exports.config = {
-    name: "prime",
+    name: "🙂admin",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "prime", //don't change my credit 
+    credits: "🙂admin", //don't change my credit 
     description: "Show Owner Info",
-    commandCategory: "info",
+    commandCategory: "🙃admin",
     usages: "",
     cooldowns: 5
 };
