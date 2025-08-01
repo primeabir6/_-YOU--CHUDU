@@ -11,7 +11,7 @@ module.exports.config = {
 
 module.exports.run = async ({ api, event }) => {
   return api.sendMessage(
-    " তুই কি চাস আমি তোর girlfriend রে নিয়া পালাই যাই😏",
+    "মাগির পোলা তোরে যুষি উল্টা করে যুষি 🤤",
     event.threadID,
     event.messageID
   );
